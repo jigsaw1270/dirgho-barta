@@ -1,8 +1,11 @@
-import React, {useEffect , useState , useRef} from 'react'
+import React, {useEffect , useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import { ChatEngine } from 'react-chat-engine'
 import { auth } from '../firebase'
 import axios from 'axios';
+import { GrLogout } from "react-icons/gr";
+import dirgho from "../assets/dirgho.png";
+import './login.css'
 
 
 import { useAuth } from '../contexts/AuthContext'
@@ -66,10 +69,10 @@ headers: {
    <div className='chats-page'>
     <div className='nav-bar'>
         <div className='logo-tab'>
-            Dirgho Batra
+          <img src={dirgho} alt="" className='dirgho2'/> 
         </div>
         <div onClick={handleLogout} className='logout-tab'>
-Logout
+<GrLogout></GrLogout>
         </div>
     </div>
 

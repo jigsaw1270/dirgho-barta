@@ -1,5 +1,5 @@
 import React from "react";
-import loginimg from "../assets/login.jpg"
+import dirgho from "../assets/dirgho.png"
 
 
 import "firebase/compat/app";
@@ -44,7 +44,7 @@ const login = () => {
 <div id="login-card"
 >
 
-    <h2 className="tittle">Welcome to Dirgho-batra</h2>
+    <h2 className="tittle"><img src={dirgho} alt="dirgho" className="dirgho" /> <br />Welcome to Dirgho-batra </h2>
     <div
     className="button-86"
  
