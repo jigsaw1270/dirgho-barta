@@ -1,0 +1,50 @@
+.ce-chats-container{
+    background-color: #22668D !important;
+}
+
+.ce-chat-card {
+    background-color: #FFCC70 !important;
+
+}
+
+.ce-active-chat-card , .ce-their-message-bubble{
+    background-color: #FFCC70 !important;
+
+}
+
+.ce-message-date-text, .ce-their-message-sender,.ce-chat-title-text, .ce-chat-subtitle-text{
+    color: #22668D !important;
+}
+.ce-chat-form-container, .ce-message-input-form, .ce-input, .ce-textarea-input{
+    background-color: #FFFADD  !important;
+}
+
+#new-chat-plus-button ,.ce-chat-title ,.ce-my-message-bubble , #ce-send-message-button, .ce-primary-button,.ce-settings-container, .ce-settings {
+    background-color: #22668D !important;
+}
+
+.ce-message-date-text, .ce-message-row, .ce-their-message, .ce-my-message-attachments-container, .ce-feed-container-top , #ce-feed-container , .ce-chat-feed-container {
+    background-color: #8ECDDD !important;
+}
+
+.ce-chat-title-container{
+    background-color: #8ECDDD !important;
+    border: 2px solid #22668D !important;
+    border-radius: 10px;
+}
+
+.ce-active-chat-card{
+    border:  5px solid  #22668D !important;
+}
+
+.ce-section-title:hover {
+    background-color: #FFCC70 !important;
+
+}
+#ce-options-drop-down:hover {
+    background-color: #FFCC70 !important;
+
+}
+
+
+

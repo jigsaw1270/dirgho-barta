@@ -5,7 +5,8 @@ import { auth } from '../firebase'
 import axios from 'axios';
 import { GrLogout } from "react-icons/gr";
 import dirgho from "../assets/dirgho.png";
-import './login.css'
+import './login.css';
+import './chats.css';
 
 
 import { useAuth } from '../contexts/AuthContext'
@@ -64,7 +65,7 @@ headers: {
 
     );
 
-    // if(!user || loading) return 'loading..'
+    if(!user || loading) return 'loading..'
   return (
    <div className='chats-page'>
     <div className='nav-bar'>
@@ -72,7 +73,7 @@ headers: {
           <img src={dirgho} alt="" className='dirgho2'/> 
         </div>
         <div onClick={handleLogout} className='logout-tab'>
-<GrLogout></GrLogout>
+        <GrLogout></GrLogout>
         </div>
     </div>
 
