@@ -46,7 +46,7 @@ const login = () => {
 
     <h2 className="tittle"><img src={dirgho} alt="dirgho" className="dirgho" /> <br />Welcome to Dirgho-batra </h2>
     <div
-    className="button-86"
+    className="button-62"
  
     onClick={()=> auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}>
  Sign in with Goggle
@@ -56,7 +56,7 @@ const login = () => {
     <br /> <br />
 
     <div
-    className="button-86"
+    className="button-62"
  
     onClick={()=> auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}>
      Sign in with Facebook
